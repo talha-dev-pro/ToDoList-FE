@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Login from "./Login";
 import Signup from "./Signup";
+import Home from "./Components/Home";
 
 function App() {
   const [login, setLogin] = useState(true);
@@ -16,6 +17,7 @@ function App() {
       )}
       {/* {login && <Login />}
       {!login && <Signup />} */}
+      {/* <Home /> */}
     </div>
   );
 }
